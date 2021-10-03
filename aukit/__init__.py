@@ -61,31 +61,7 @@ v{}
 history_doc = """
 ### 历史版本
 #### v1.4.6
-- 变声采用librosa包的stft。
-
-#### v1.4.5
-- logger改为__file__。
-
-#### v1.4.4
-- Dict2Obj方法增加parse方法。
-
-#### v1.4.3
-- 修正Dict2Obj的get方法达不到预期的bug。
-- 修正world声码器变声静音报错的bug。
-
-#### v1.4.1
-- 修正安装依赖报错的bugs。
-- set系列改为convert系列，如set_sample_rate改为convert_sample_rate。
-- Dict2Obj用dotmap模块的DotMap代替。
-
-#### v1.4.0
-- 增加音频格式转换方法。
-- 命令行批量处理语音，支持音频播放、语音降噪、音频格式转换。
-- 增加命令行工具：auplay, aunoise, auformat。
-- 调整日志输出方法。
-
-#### v1.3.12
-- 减少不必要的依赖，最低依赖只保留pydub,  scipy, numpy, librosa。
+- ttskit配套的语音工具。
 """
 
 readme_docs = [__doc__, version_doc, cli_doc, changer_doc, editor_doc, griffinlim_doc, io_doc, noise_remover_doc,
